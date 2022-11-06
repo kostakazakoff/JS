@@ -4,5 +4,3 @@ function TimeCalc(input) {
     let totalTime = projectsCount * 3;
     console.log(`The architect ${name} will need ${totalTime} hours to complete ${projectsCount} project/s.`);
 }
-
-// TimeCalc(["George ", "4"]);

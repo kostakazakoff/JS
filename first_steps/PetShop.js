@@ -6,5 +6,3 @@ function CalcFoodPrice(input) {
     let total = dogFoodPacks * dogFoodPrice + catFoodPacks * catFoodPrice;
     console.log(`${total} lv.`);
 }
-
-// CalcFoodPrice(["5", "4"]);

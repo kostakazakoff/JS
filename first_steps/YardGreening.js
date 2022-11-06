@@ -6,5 +6,3 @@ function calcExpenses(param) {
     let total =  price - discount;
     console.log(`The final price is: ${total} lv.\nThe discount is: ${discount} lv.`)
 }
-
-// calcExpenses("550")

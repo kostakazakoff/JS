@@ -5,5 +5,3 @@ function Concatenate(input) {
     let town = input[3];
     console.log(`You are ${firstName} ${lastName}, a ${age}-years old person from ${town}.`);
 }
-
-// Concatenate(["Kosta", "Kazakov", 52, "Sunny Beach"]);
