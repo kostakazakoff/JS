@@ -7,4 +7,4 @@ function CalcFoodPrice(input) {
     console.log(`${total} lv.`);
 }
 
-CalcFoodPrice("5", "4");
+// CalcFoodPrice(["5", "4"]);
