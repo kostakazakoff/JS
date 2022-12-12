@@ -5,7 +5,7 @@ function calcLunchBreak(input){
     let lunchTime = breakTime / 8;
     let restTime = breakTime / 4;
     let timeLeft = breakTime - lunchTime - restTime;
-    let difference = Math.ceil(Math.abs(timeLeft - movieTime))
+    let difference = Math.ceil(Math.abs(timeLeft - movieTime));
     if (timeLeft >= movieTime){
         console.log(`You have enough time to watch ${movie} and left with ${difference} minutes free time.`);
     }
