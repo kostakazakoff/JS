@@ -1,20 +1,20 @@
-function personalTitles(input){
+function personalTitles(input) {
     let output = ''
     let age = Number(input[0]);
     let gender = input[1];
 
-    if (gender == 'm'){
-        if (age < 16){
+    if (gender == 'm') {
+        if (age < 16) {
             output = 'Master';
         }
-        else{
+        else {
             output = 'Mr.';
         }
-    }else if (gender == 'f'){
-        if (age < 16){
+    } else if (gender == 'f') {
+        if (age < 16) {
             output = 'Miss';
         }
-        else{
+        else {
             output = 'Ms.';
         }
     }
@@ -22,7 +22,7 @@ function personalTitles(input){
     console.log(output);
 }
 
-// function personalTitles(input){
+// function personalTitles(input) {
 //     let age = Number(input[0]);
 //     let gender = input[1];
 //     let master = age < 16 & gender == 'm';
@@ -36,8 +36,8 @@ function personalTitles(input){
 //     ms &&= 'Ms.';
 //     let persons = [master, mr, miss, ms]
 
-//     for (let person of persons){
-//         if (person != 0){
+//     for (let person of persons) {
+//         if (person != 0) {
 //             console.log(person)
 //         }
 //     }
